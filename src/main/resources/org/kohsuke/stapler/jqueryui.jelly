@@ -1,0 +1,4 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jellty:stapler">
+  <st:adjunct includes="org.kohsuke.stapler.jquery"/>
+  <script src="${it.packageUrl}/jqueryui/js/jquery-ui${it.manager.debug?'.min':''}.js" type="text/javascript" />
+</j:jelly>

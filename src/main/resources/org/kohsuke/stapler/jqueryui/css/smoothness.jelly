@@ -1,0 +1,5 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jellty:stapler">
+  <st:adjunct includes="org.kohsuke.stapler.jqueryui"/>
+  <link rel="stylesheet" type="text/css"
+         href="${it.packageUrl}/jqueryui/css/smoothness/jquery-ui${it.manager.debug?'.min':''}.css" />
+</j:jelly>
